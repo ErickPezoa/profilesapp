@@ -1,0 +1,42 @@
+/* Menu.css */
+
+/* General styling for the menu */
+nav {
+  background-color: #333; /* Dark background for the menu */
+  padding: 10px; /* Space around the menu */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Unordered list styling */
+nav ul {
+  list-style-type: none; /* Remove default bullets */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for horizontal layout */
+}
+
+/* Menu item styling */
+nav ul li {
+  margin-right: 20px; /* Space between menu items */
+}
+
+/* Link styling */
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color */
+  padding: 8px 15px; /* Space inside the link */
+  border-radius: 5px; /* Rounded corners for the link */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+  background-color: #575757; /* Darker background on hover */
+  color: #fff; /* Ensure text is still white */
+}
+
+/* Active link styling */
+nav ul li a.active {
+  background-color: #4CAF50; /* Highlight color for active link */
+  color: white; /* Text color for active link */
+}
